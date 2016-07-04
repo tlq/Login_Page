@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 
   <fieldset>
     
-  	<div class="legend">Login <a href="www.hotmail.com" class="register"><span>New Here ?</span><br>
+  	<div class="legend">LOGIN <a href="www.hotmail.com" class="register"><span>New Here ?</span><br>
     <span style="margin-left: 10px;"> Register Now ! </span></a></div>
     
     <div class="input">
@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
       <a href="" class="link">Forgot Password</a>
     </div>
     <div [hidden]="error" class="error"> password/e-mail doesnt match! </div>
-    <button type="submit" (click)="checkPassword()"  class="submit"><i class="fa fa-long-arrow-right"></i></button>
+    <button type="submit" (click)="checkPassword()" class="btn btn-primary submit">Login</button>
     
   </fieldset>
   
