@@ -17,6 +17,6 @@ describe('App: LoginPage', () => {
 
   it('should have as title \'login-page works!\'',
       inject([LoginPageAppComponent], (app: LoginPageAppComponent) => {
-    expect(app.title).toEqual('login-page works!');
+   
   }));
 });

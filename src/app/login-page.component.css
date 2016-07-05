@@ -29,18 +29,7 @@
   font-style: bolder;
   border-radius: 5px;
 }
-.legend:after {
-  background-image: url(http://simpleicon.com/wp-content/uploads/multy-user.png);
-  background-size: 100px 100px;
-  background-repeat: no-repeat;
-  background-position: 152px -16px;
-  opacity: 0.06;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-}
+
 .input {
   position: relative;
   width: 90%;
@@ -76,20 +65,13 @@
 
 .btn {
   display: inline-block;
-  padding: 6px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  margin-left: 10px;
   font-weight: normal;
   line-height: 1.42857143;
   text-align: center;
-  white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 10px 16px;
@@ -126,12 +108,12 @@
 .submit {
   float: right;
   border-radius: 10px;
-  font-weight: lighter;
+  font-weight: lighter !important;
   font-size: 12px;
   padding: 10px 20px !important;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 /***********************
   CUSTON BTN VALUES
@@ -160,34 +142,6 @@
   box-shadow: none;
 }
 
-
-
-.feedback {
-  position: absolute;
-  bottom: -70px;
-  width: 100%;
-  text-align: center;
-  color: #fff;
-  background: #2ecc71;
-  padding: 10px 0;
-  font-size: 12px;
-  display: none;
-  opacity: 0;
-}
-.feedback:before {
-  bottom: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-color: rgba(46, 204, 113, 0);
-  border-bottom-color: #2ecc71;
-  border-width: 10px;
-  margin-left: -10px;
-}
 .error{
     color: orangered;
     font: bold;
@@ -222,7 +176,4 @@ font-style: italic;
 }
 .header-wrapper{
     display: flex;
-}
-.arrow{
-  background-image: url(app/shared/images/arrow.png);
 }
